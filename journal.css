@@ -5,9 +5,13 @@
          url("http://wickedlysmart,com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf")
 }
 
+
 body {
     font-family: Verdana, Geneva, Arial, sans-serif;
     font-size: small;
+    line-height: 1.8em;
+    margin: 4em;
+
 }
 
 h1, h2 {
@@ -28,3 +32,60 @@ h2 {
 blockquote {
     font-style: italic;
 }
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+tbody td, tbody th {
+    border: thin solid black;
+    padding: 5px;
+}
+
+caption {
+    font-size: italic;
+    padding-top: 8px;
+}
+
+th {
+    background-color: #c60;
+}
+
+
+table table th {
+    background-color: white;
+}
+
+li {
+    list-style-type: square;
+
+}
+
+table .title {
+    background-color:rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.cellcolor {
+    background-color: #fcba7a;
+}
+
+.logo-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    width: 150px;
+    
+}
+
